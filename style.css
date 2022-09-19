@@ -31,7 +31,6 @@ p {
 body{
     background: #ebeef1;
 }
-
 .container{
     min-height: 100vh;
     width: 100%;
@@ -40,15 +39,16 @@ body{
     justify-content: center;
 }
 .section-title {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 500;
-    color: black;
+    color: orange;
     margin-bottom: 8px;
     margin-top: 5px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: rgb(75, 75, 75) 2px 0 15px;;
 }
 
 /* Seção de apresentação */
@@ -79,8 +79,12 @@ body{
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 2.8s;
 }
-
-
+.foto-porti{
+    margin-left: 620px;
+    position: relative;
+    width: 70px;
+    top:-85px;
+}
 .cta{
     display: none;
     padding: 15px 30px;
