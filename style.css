@@ -189,7 +189,10 @@ body{
     font-weight: 500;
     margin-top: 10px;
 }
-
+#foto{
+    justify-content: center;
+    align-items: center;
+}
 #portfolio .project-img {
     flex-basis: 50%;
     height: 300px;
